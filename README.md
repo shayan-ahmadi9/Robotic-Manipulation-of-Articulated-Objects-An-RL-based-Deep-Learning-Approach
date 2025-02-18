@@ -1,2 +1,2 @@
-# Robotic Manipulation of Articulated Objects: An RL-based Deep Learning Approach
-This repository hosts the development of an RL-based Deep Learning approach for robotic manipulation of articulated objects. The project is currently in progress and will be made public upon completion.
+# Learning-Based Robotic Grasping with Geometric Initialization
+This project focuses on robotic grasping by integrating geometric algorithms with learning-based methods. Initially, RGB-D top-view images of objects are captured, and a geometrical approach using the straight skeleton algorithm generates initial grasp candidates. To refine these candidates, reinforcement learning (RL) and deep learning techniques allow the robotic manipulator to explore and identify more stable grasps. Ultimately, this approach will be extended to task-oriented grasping, ensuring that the most suitable grasp is selected based on the specific requirements of a given task.
